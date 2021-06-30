@@ -1,7 +1,7 @@
 import Home from './components/pageComponents/Home';
 import About from './components/pageComponents/About';
 import Contact from './components/pageComponents/Contact';
-import Product from './components/pageComponents/Product';
+import Animal from './components/pageComponents/Animal';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
@@ -33,8 +33,8 @@ function App() {
             <Contact />
           </Route>
 
-          <Route path="/product">
-            <Product />
+          <Route path="/animal/:name">
+            <Animal />
           </Route>
 
         </Switch>
