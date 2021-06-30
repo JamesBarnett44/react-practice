@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // Footer goes at the bottom
 // Anything in <Switch> are the cases to switch between
 // Route specify path, if path matches render that component
+// git change
 function App() {
   return (
     <div className="App">
